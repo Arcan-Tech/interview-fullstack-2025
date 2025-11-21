@@ -7,17 +7,16 @@ For any quetions related to the test, please contact `darius.sas _at_ arcan.tech
 
 ## The task
 ### Goal
-The goal is to build a full stack web application where the backend services exposes a REST API that serves data to a frontend that visualizes it.
+The goal is to build a full stack web application where the backend service exposes a REST API that serves data to a frontend that visualizes it.
 
 The backend simulates retrieving data from a database, in the `./data` folder as if it's being retrieved from a database.
-The backend service should expose REST APIs.
-The frontend must have at most plot/graph. The rest of the information must be visualized in tables.
+The frontend is a simple dashboard that visualizes the data received by the backend. It must have at most one plot/graph. The rest of the information must be visualized in tables.
 
-It is recommended that the backend uses [https://docs.astral.sh/uv/](https://docs.astral.sh/uv/) as package manager, and FastAPI to expose APIs.
+It is recommended that the backend uses [uv](https://docs.astral.sh/uv/) as package manager, and [FastAPI](https://fastapi.tiangolo.com/) as API framework.
 
 ### Expected output
 - A brief report (max 1000 words) explaining the key technical decisions
-- A *dockerized* full-stack application complete with Docker Compose file that start the application building the images in `frontend` and `backend`.
+- A *dockerized* full-stack application complete with Docker compose file that starts the application building the images in `frontend` and `backend`.
 
 The output should be submitted as a link to a fork of this repository.
 
