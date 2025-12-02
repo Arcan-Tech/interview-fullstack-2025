@@ -3,7 +3,7 @@ This repository contains the starting files for the technical interview for the 
 
 Applicants should fork this repository, complete the test, and submit the link to their solution to the hiring manager/HR contact.
 
-For any quetions related to the test, please contact `darius.sas _at_ arcan.tech`.
+For any questions related to the test, please contact `darius.sas _at_ arcan.tech`.
 
 ## The task
 ### Goal
